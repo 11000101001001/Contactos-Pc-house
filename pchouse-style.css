@@ -1,0 +1,114 @@
+/* Estilo basado en la identidad visual de PC House Paraguay */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f6fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #0c2d83;
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+header h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+section {
+  padding: 2rem 1rem;
+  background-color: #fff;
+  margin: 1rem auto;
+  max-width: 900px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  border-radius: 8px;
+}
+
+h2 {
+  color: #0c2d83;
+  margin-top: 0;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+.cta {
+  background-color: #dfe6fd;
+  text-align: center;
+  border-left: 4px solid #0c2d83;
+}
+
+.cta h2 {
+  color: #0c2d83;
+}
+
+.whatsapp-button {
+  background-color: #25D366;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  display: inline-block;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebe5d;
+}
+
+footer {
+  background-color: #0c2d83;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem 1rem;
+}
+
+.social-icons {
+  margin-top: 1rem;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  margin: 0 0.5rem;
+  vertical-align: middle;
+  transition: transform 0.2s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  header h2 {
+    font-size: 1rem;
+  }
+
+  section {
+    padding: 1.5rem 1rem;
+  }
+} 
