@@ -1,75 +1,126 @@
 /* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f4f4f4;
-    color: #333;
-    margin: 0;
-    padding: 0;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Contenedor principal */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /* Encabezado */
 header {
-    background-color: #0787ea;
-    color: white;
-    padding: 20px;
+  background-color: #0d6efd;
+  color: #fff;
+  text-align: center;
+  padding: 50px 20px;
 }
 
-.logo-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+header h1 {
+  font-size: 2.5em;
+  font-weight: bold;
 }
 
-.logo-container img {
-    width: 50px;
-    height: auto;
+header h2 {
+  font-size: 1.8em;
+  margin-top: 10px;
 }
 
-/* Banner */
-.banner-container {
-    margin-top: 20px;
+header p {
+  font-size: 1.2em;
+  margin-top: 10px;
 }
 
-.banner-container img {
-    width: 100%;
-    max-height: 300px;
-    object-fit: cover;
-    display: block;
-    margin: 0 auto;
+/* Secciones */
+section {
+  background-color: #fff;
+  padding: 40px 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Contenedor de contacto */
-.contact-container {
-    margin: 50px auto;
-    padding: 20px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
+/* Listas */
+ul {
+  list-style-type: none;
+  padding: 0;
 }
 
-/* Botón de WhatsApp */
-.whatsapp-button {
-    display: inline-block;
-    background-color: #25D366;
-    color: white;
-    padding: 15px 20px;
-    text-decoration: none;
-    font-size: 18px;
-    border-radius: 5px;
-    margin-top: 20px;
+ul li {
+  font-size: 1.1em;
+  padding: 8px 0;
 }
 
-.whatsapp-button:hover {
-    background-color: #1ebe57;
+/* Llamado a la acción */
+.cta {
+  background-color: #ffc107;
+  text-align: center;
+  padding: 50px 20px;
+  border-radius: 10px;
+}
+
+.cta h2 {
+  color: #333;
+}
+
+.cta form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cta input {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px;
+  margin: 10px 0;
+  border: 2px solid #0d6efd;
+  border-radius: 5px;
+}
+
+.cta button {
+  background-color: #0d6efd;
+  color: #fff;
+  font-size: 1.2em;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cta button:hover {
+  background-color: #0056b3;
 }
 
 /* Pie de página */
 footer {
-    margin-top: 50px;
-    padding: 10px;
-    background-color: #222;
-    color: white;
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  font-size: 1em;
+}
+
+/* Adaptación responsive */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2em;
+  }
+  
+  header h2 {
+    font-size: 1.5em;
+  }
+
+  section {
+    padding: 30px 15px;
+  }
 }
