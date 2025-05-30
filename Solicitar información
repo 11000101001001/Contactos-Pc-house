@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solicitar Información - Cámaras Hikvision</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Solicitá Información sobre Cámaras Hikvision</h1>
+      <h2>Seguridad y tecnología al mejor precio</h2>
+      <p>Completa el formulario y un asesor de PC House te contactará en minutos.</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="container">
+      <h2>¿Por qué elegir Hikvision?</h2>
+      <p>Las cámaras Hikvision ofrecen:</p>
+      <ul>
+        <li>Alta resolución y visión nocturna</li>
+        <li>Monitoreo remoto desde tu celular</li>
+        <li>Garantía y soporte técnico en Paraguay</li>
+        <li>Precios mayoristas exclusivos</li>
+      </ul>
+    </section>
+
+    <section class="cta">
+      <div class="container">
+        <h2>Solicitá tu cotización ahora</h2>
+        <p>Completá el formulario y te contactaremos en minutos.</p>
+        <form action="#" method="post">
+          <label for="nombre">Nombre completo</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+          <label for="telefono">Número de celular (Paraguay)</label>
+          <input type="tel" id="telefono" name="telefono" placeholder="(595) 9XXX XXXX" required>
+
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" name="email" placeholder="Tu correo" required>
+
+          <button type="submit">Solicitar Información</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 PC House – Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
