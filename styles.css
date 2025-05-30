@@ -1,126 +1,114 @@
-/* Estilos generales */
+/* Estilo basado en la identidad visual de PC House Paraguay */
+
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f8f9fa;
+  background-color: #f5f6fa;
   color: #333;
+  line-height: 1.6;
 }
 
-/* Contenedor principal */
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-/* Encabezado */
 header {
-  background: linear-gradient(90deg, #0d6efd, #004085);
+  background-color: #0c2d83;
   color: #fff;
+  padding: 2rem 1rem;
   text-align: center;
-  padding: 50px 20px;
 }
 
 header h1 {
-  font-size: 2.5em;
-  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
 }
 
 header h2 {
-  font-size: 1.8em;
-  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 
-header p {
-  font-size: 1.2em;
-  margin-top: 10px;
-}
-
-/* Secciones */
 section {
+  padding: 2rem 1rem;
   background-color: #fff;
-  padding: 40px 20px;
-  margin: 20px 0;
-  border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 1rem auto;
+  max-width: 900px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  border-radius: 8px;
 }
 
-/* Listas */
+h2 {
+  color: #0c2d83;
+  margin-top: 0;
+}
+
 ul {
-  list-style-type: none;
-  padding: 0;
+  padding-left: 1.5rem;
 }
 
 ul li {
-  font-size: 1.1em;
-  padding: 8px 0;
+  margin-bottom: 0.5rem;
 }
 
-/* Llamado a la acción */
 .cta {
-  background-color: #ffc107;
+  background-color: #dfe6fd;
   text-align: center;
-  padding: 50px 20px;
-  border-radius: 10px;
+  border-left: 4px solid #0c2d83;
 }
 
 .cta h2 {
-  color: #333;
+  color: #0c2d83;
 }
 
-.cta form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.cta input {
-  width: 100%;
-  max-width: 400px;
-  padding: 12px;
-  margin: 10px 0;
-  border: 2px solid #0d6efd;
-  border-radius: 5px;
-}
-
-.cta button {
-  background-color: #0d6efd;
-  color: #fff;
-  font-size: 1.2em;
-  padding: 12px 20px;
+.whatsapp-button {
+  background-color: #25D366;
+  color: white;
+  padding: 0.75rem 1.5rem;
   border: none;
   border-radius: 5px;
-  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  display: inline-block;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
 }
 
-.cta button:hover {
-  background-color: #0056b3;
+.whatsapp-button:hover {
+  background-color: #1ebe5d;
 }
 
-/* Pie de página */
 footer {
-  background-color: #222;
+  background-color: #0c2d83;
   color: #fff;
   text-align: center;
-  padding: 20px;
+  padding: 1.5rem 1rem;
 }
 
-footer p {
-  font-size: 1em;
+.social-icons {
+  margin-top: 1rem;
 }
 
-/* Adaptación responsive */
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  margin: 0 0.5rem;
+  vertical-align: middle;
+  transition: transform 0.2s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+
 @media (max-width: 768px) {
   header h1 {
-    font-size: 2em;
+    font-size: 1.5rem;
   }
-  
+
   header h2 {
-    font-size: 1.5em;
+    font-size: 1rem;
   }
 
   section {
-    padding: 30px 15px;
+    padding: 1.5rem 1rem;
   }
-}
+} 
